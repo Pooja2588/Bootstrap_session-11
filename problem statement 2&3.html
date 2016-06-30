@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	 <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<script type="text/javascript"  src="bootsy.js"></script>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+
+	 <meta charset="utf-8">
+	 
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script type="text/javascript">
+
+
+</script>
+ 
+</head>
+
+<body>
+<div class="container">
+<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#mdl">Add new student entry</button>
+
+  <!-- Modal -->
+  <div class="modal fade" id="mdl" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Modal Header</h4>
+        </div>
+       <div class="modal-body">
+        <form class="contact" name="contact">
+            <label class="label" for="RollNumber"  style="color:black;">Roll Number</label><br>
+            <input type="text" name="RollNumber" id="rollnumber" class="input-xlarge" required value=""><br>
+            <label class="label" for="name" style="color:black;">Name</label><br>
+            <input type="text" name="name" id="name"  class="input-xlarge" required><br>
+			 <label class="label" for="school" style="color:black;">School</label><br>
+            <input type="text" name="school" id="school" class="input-xlarge" required><br>
+			 <label class="label" for="place" style="color:black;">Place</label><br>
+            <input type="text" name="place" id="place" class="input-xlarge" required><br>
+            <label class="label" for="marks" style="color:black;">Marks obtained</label><br>
+			 <input type="text" name="marks" id="marks" class="input-xlarge" required><br>
+			  <label class="label" for="total" style="color:black;">Total marks</label><br>
+			 <input type="text" name="total"  id="total" class="input-xlarge" required><br>
+           
+        </form>
+    </div>
+        <div class="modal-footer">
+		  <button type="button" class="btn btn-default" data-dismiss="modal" id="save">Save</button>
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  <div class="table-responsive">
+<table class="table">
+<thead>
+<tr>
+<th>
+Roll Number
+</th>
+<th>
+Name
+</th>
+<th>
+School Name
+</th>
+<th>
+place
+</th>
+<th>
+Marks obtained
+</th>
+<th>
+Total Marks
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+
+</body>
+
+</html>
